@@ -1,0 +1,22 @@
+{
+  "name": "scss",
+  "version": "1.0.0",
+  "description": "Responsive portfolio",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SantsuMaaria/Front-End-course-LUT.git"
+  },
+  "author": "Sanna Häkkinen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SantsuMaaria/Front-End-course-LUT/issues"
+  },
+  "homepage": "https://github.com/SantsuMaaria/Front-End-course-LUT#readme",
+  "dependencies": {
+    "node-sass": "^9.0.0"
+  }
+}
