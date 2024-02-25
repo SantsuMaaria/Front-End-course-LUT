@@ -90,7 +90,7 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url('../img/Omakuva.jpg');
+            background: url('../img/Omakuva_small.jpg');
             border-radius: 50%;  // ympyrän halkaisija
             border: solid 3px $secondary-color;
         }
@@ -116,7 +116,7 @@
         text-transform: uppercase;
         padding: 1rem 0;
         font-weight: 300;
-        color: #fff;
+        color: set-text-color($primary-color);
         text-decoration: none;
         @include easeOut;
 
