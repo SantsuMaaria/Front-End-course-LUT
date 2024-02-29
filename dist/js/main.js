@@ -31,6 +31,27 @@ function toggleMenu() {
 
         // Set Menu State
         showMenu = false;
+
+        // Accessibility: Update ARIA attributes
+        menuBtn.setAttribute('aria-expanded', 'false');
+        menu.setAttribute('aria-hidden', 'true');
     }
 }
 
+// Accessibility: Initialize ARIA attributes
+menuBtn.setAttribute('aria-expanded', 'false');
+menu.setAttribute('aria-hidden', 'true');
+
+// Event listener for menu button click
+menuBtn.addEventListener('click', toggleMenu);
+
+// Event listener for Enter key press
+menuBtn.addEventListener('keydown', function(event) {
+    // Check if the pressed key is Enter (key code 13)
+    if (event.keyCode === 13) {
+        // Prevent the default action of the Enter key
+        event.preventDefault();
+        // Trigger the toggleMenu function
+        toggleMenu();
+    }
+});
