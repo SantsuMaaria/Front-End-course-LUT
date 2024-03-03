@@ -22,6 +22,10 @@ function toggleMenu() {
         // Set Menu State
         showMenu = true;
 
+        // Accessibility: Update ARIA attributes
+        menuBtn.setAttribute('aria-expanded', 'true');
+        menu.setAttribute('aria-hidden', 'false')
+
     } else {
         menuBtn.classList.remove('close');
         menu.classList.remove('show');
@@ -38,9 +42,6 @@ function toggleMenu() {
     }
 }
 
-// Accessibility: Initialize ARIA attributes
-menuBtn.setAttribute('aria-expanded', 'false');
-menu.setAttribute('aria-hidden', 'true');
 
 // Event listener for menu button click
 menuBtn.addEventListener('click', toggleMenu);
@@ -53,5 +54,10 @@ menuBtn.addEventListener('keydown', function(event) {
         event.preventDefault();
         // Trigger the toggleMenu function
         toggleMenu();
+
     }
 });
+
+// Accessibility: Initialize ARIA attributes
+menuBtn.setAttribute('aria-expanded', 'false');
+menu.setAttribute('aria-hidden', 'true');
