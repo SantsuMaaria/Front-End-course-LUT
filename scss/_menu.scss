@@ -91,7 +91,7 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url('../img/testikoira.jpg');
+            background: url('../img/testikoira.jpg'); // ei näy esikatselussa
             border-radius: 50%;  // ympyrän halkaisija
             border: solid 3px $secondary-color;
         }
