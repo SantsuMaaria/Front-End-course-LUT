@@ -2,6 +2,12 @@
 @import 'menu';
 
 
+*:focus {
+    outline: none;
+    padding: 1em;
+    box-shadow: 0 0 0 0.2em #eece1a;
+  }
+
     * {
     box-sizing:border-box;
 }
@@ -42,6 +48,7 @@ header {
     position: fixed;
     z-index: 2;         //jakaa sivun 100 osaan ja sijoittaa annetun arvon mukaan
     width: 100%;
+
 }
 
 .text-secondary {
@@ -55,9 +62,8 @@ main {
 
     .icons {
         margin-top: 1rem;
-
         a {
-            padding: 0.4rem;
+            padding: 1rem;
 
             &:hover {
                 color: $secondary-color;

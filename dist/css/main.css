@@ -2,6 +2,7 @@
   position: absolute;
   z-index: 3;
   background-color: transparent;
+  border: none;
   right: 35px;
   top: 35px;
   cursor: pointer;
@@ -90,6 +91,11 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
+*:focus {
+  outline: none;
+  padding: 1em;
+  box-shadow: 0 0 0 0.2em #eece1a; }
+
 * {
   box-sizing: border-box; }
 
@@ -142,7 +148,7 @@ main {
   main .icons {
     margin-top: 1rem; }
     main .icons a {
-      padding: 0.4rem; }
+      padding: 1rem; }
       main .icons a:hover {
         color: #eece1a;
         transition: all 0.5s ease-out; }
