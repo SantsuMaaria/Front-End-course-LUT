@@ -6,7 +6,7 @@
   "homepage": "https://SantsuMaaria.github.io/Front-End-course-LUT",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
-    "deploy": "gf-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "repository": {
     "type": "git",
