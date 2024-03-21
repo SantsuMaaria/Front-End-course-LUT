@@ -20,6 +20,6 @@
   "homepage1": "https://github.com/SantsuMaaria/Front-End-course-LUT#readme",
   "dependencies": {
     "gh-pages": "^6.1.1",
-    "node-sass": "^9.0.0"
+    "node-sass": "^10.0.1"
   }
 }
