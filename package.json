@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive portfolio",
   "main": "index.js",
-  "homepage": "https://github.com/SantsuMaaria/Front-End-course-LUT.git",
+  "homepage": "https://SantsuMaaria.github.io/Front-End-course-LUT",
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gf-pages -d dist"
