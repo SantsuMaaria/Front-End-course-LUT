@@ -1,15 +1,14 @@
 @import 'config';
 @import 'menu';
 
+* {
+    box-sizing: border-box;
+}
 
 *:focus {
-    outline: none;
-    padding: 1rem;
-    box-shadow: 0 0 0 0.2em #eece1a;
-  }
-
-    * {
-    box-sizing:border-box;
+    outline: none; /* Removing the default focus outline */
+    padding: 1rem; /* Adding padding when focused */
+    box-shadow: 0 0 0 0.2em #eece1a; /* Adding a box shadow when focused */
 }
 
 

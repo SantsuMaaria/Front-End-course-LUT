@@ -91,13 +91,16 @@
 .nav-item:nth-child(4) {
   transition-delay: 0.4s; }
 
-*:focus {
-  outline: none;
-  padding: 1rem;
-  box-shadow: 0 0 0 0.2em #eece1a; }
-
 * {
   box-sizing: border-box; }
+
+*:focus {
+  outline: none;
+  /* Removing the default focus outline */
+  padding: 1rem;
+  /* Adding padding when focused */
+  box-shadow: 0 0 0 0.2em #eece1a;
+  /* Adding a box shadow when focused */ }
 
 body {
   background: #444;
