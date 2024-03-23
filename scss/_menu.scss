@@ -92,8 +92,8 @@
         .portrait {
             width: 250px;
             height: 250px;
-            background: url('../img/jaalla11.jpg'); // ei näy esikatselussa
-            border-radius: 50%;  // ympyrän halkaisija
+            background: url('../img/jaalla11.jpg'); 
+            border-radius: 50%;  // cirle radius/säde?
             border: solid 3px $secondary-color;
         }
     }
