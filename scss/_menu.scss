@@ -108,6 +108,7 @@
         }
         &.current > a {
             color: $secondary-color;
+            font-weight: bold;  // current page also bold, not just color indicated
         }
     }
 
