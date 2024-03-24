@@ -166,6 +166,15 @@ main {
   grid-gap: 30px;
   grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
   grid-template-columns: repeat(3, 1fr); }
+  .about-info a:link {
+    text-decoration: underline; }
+  .about-info a:focus {
+    padding: 0.1rem;
+    box-shadow: 0 0 0 0.2em #eece1a; }
+  .about-info a:visited {
+    color: #e487dc; }
+  .about-info a:hover {
+    color: #e918ae; }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -271,7 +280,7 @@ main {
     height: 25vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
-      background: url(../img/Omakuva_small.jpg);
+      background: url(../img/jaalla11.jpg);
       width: 150px;
       height: 150px; }
   .about-info {
