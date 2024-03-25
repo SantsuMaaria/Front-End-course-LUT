@@ -61,3 +61,4 @@ menuBtn.addEventListener('keydown', function(event) {
 // Accessibility: Initialize ARIA attributes
 menuBtn.setAttribute('aria-expanded', 'false');
 menu.setAttribute('aria-hidden', 'true');
+
