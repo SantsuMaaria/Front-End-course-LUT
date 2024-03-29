@@ -172,9 +172,9 @@ main {
     padding: 0.1rem;
     box-shadow: 0 0 0 0.2em #eece1a; }
   .about-info a:visited {
-    color: #e487dc; }
+    color: #fff; }
   .about-info a:hover {
-    color: #e918ae; }
+    color: #eece1a; }
   .about-info .bio-image {
     grid-area: bioimage;
     margin: auto;
@@ -182,7 +182,7 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.25rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -191,6 +191,7 @@ main {
     grid-area: job3; }
   .about-info .job {
     background: #515151;
+    font-size: 1.10rem;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
 
