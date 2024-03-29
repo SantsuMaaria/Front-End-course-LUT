@@ -36,6 +36,7 @@ h1, h2, h3 {
         padding: 0.2rem 1rem;
         background: rgba(lighten($primary-color, 2), 0.5);
     }
+
 }
 
 a {
@@ -97,23 +98,23 @@ main {
     }
 
     a:visited {
-        color: rgb(228, 135, 220);  //visited link color
+        color: #fff;  //visited link color
     }
 
     a:hover {               //link color when hovering
-        color: rgb(233, 24, 174);
+        color: #eece1a;
     }
 
     .bio-image {
         grid-area: bioimage;
         margin: auto;
-         border-radius: 50%;
+        border-radius: 50%;
         border: $secondary-color 3px solid;
     }
 
     .bio {
         grid-area: bio;
-        font-size: 1.5rem;
+        font-size: 1.25rem;
     }
 
     .job-1 {
@@ -130,6 +131,7 @@ main {
 
     .job {
         background: lighten($primary-color, 5);
+        font-size: 1.10rem;
         padding: 0.5rem;
         border-bottom: $secondary-color 5px solid;
     }
